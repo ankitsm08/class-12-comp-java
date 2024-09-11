@@ -15,9 +15,10 @@ public class Mix {
 
   // Method to accept a word in UPPER case
   void feedword() {
-    Scanner sc = new Scanner(System.in);
-    System.out.print("Enter the word in UPPER CASE: ");
-    wrd = sc.nextLine(); // Accept word
+    try (Scanner sc = new Scanner(System.in)) {
+      System.out.print("Enter the word in UPPER CASE: ");
+      wrd = sc.nextLine(); // Accept word
+    }
     len = wrd.length(); // Calculate and store length
   }
 
