@@ -19,7 +19,6 @@ public class Mix {
     System.out.print("Enter the word in UPPER CASE: ");
     wrd = sc.nextLine(); // Accept word
     len = wrd.length(); // Calculate and store length
-    sc.close();
   }
 
   // Method to mix words of two objects P and Q
