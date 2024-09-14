@@ -1,7 +1,12 @@
 # IDE Files
 .vscode/
+.venv/
+venv/
 
 # Ignore List
 ~$*.*
 */~$*.*
 *.tmp
+
+Algorithms/
+VDTs/
