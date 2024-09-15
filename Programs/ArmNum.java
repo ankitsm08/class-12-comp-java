@@ -20,7 +20,7 @@ public class ArmNum {
     if (i == 0) {
       return 0; // Base case: no more digits to process
     }
-    int digit = i % 10; // Get the last digit
+    int digit = i % 10;
     // Add digit^l to sum and recurse for remaining digits
     return (int) Math.pow(digit, l) + sum_pow(i / 10);
   }
@@ -39,10 +39,8 @@ public class ArmNum {
     int number = sc.nextInt();
     sc.close();
 
-    // Create an object of ArmNum class
     ArmNum obj = new ArmNum(number);
 
-    // Check if the number is an Armstrong number
     obj.isArmstrong();
   }
 }
