@@ -2,12 +2,12 @@ package Programs;
 
 import java.util.Scanner;
 
-public class Convert {
+public class DateConvert {
   // Instance variables
   int n, d, m, y;
 
   // Constructor to initialize data members
-  Convert() {
+  DateConvert() {
     n = 0; d = 0; m = 0; y = 0;
   }
 
@@ -62,7 +62,7 @@ public class Convert {
 
   // Main method to run the program
   public static void main(String[] args) {
-    Convert obj = new Convert();
+    DateConvert obj = new DateConvert();
     obj.accept();
     obj.day_to_date();
     obj.display();
