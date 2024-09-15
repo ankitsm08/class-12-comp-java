@@ -2,12 +2,12 @@ package Programs;
 
 import java.util.Scanner;
 
-public class Sort {
+public class StringSort {
   String sentence;
   String words[];
   String sortedSentence;
 
-  Sort() {
+  StringSort() {
     sentence = "";
     sortedSentence = "";
   }
@@ -60,7 +60,7 @@ public class Sort {
   }
 
   public static void main(String[] args) {
-    Sort sorter = new Sort();
+    StringSort sorter = new StringSort();
     sorter.readSentence();
     sorter.arrangeWords();
     sorter.display();
