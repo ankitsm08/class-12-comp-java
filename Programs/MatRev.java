@@ -16,11 +16,12 @@ public class MatRev {
 
   // Method to fill the array with user inputs
   public void fillarray() {
-    Scanner sc = new Scanner(System.in);
-    System.out.println("Enter the elements of the matrix (" + m + "x" + n + "):");
-    for (int i = 0; i < m; i++) {
-      for (int j = 0; j < n; j++) {
-        arr[i][j] = sc.nextInt();
+    try (Scanner sc = new Scanner(System.in)) {
+      System.out.println("Enter the elements of the matrix (" + m + "x" + n + "):");
+      for (int i = 0; i < m; i++) {
+        for (int j = 0; j < n; j++) {
+          arr[i][j] = sc.nextInt();
+        }
       }
     }
   }
@@ -68,6 +69,8 @@ public class MatRev {
 
     MatRev original = new MatRev(rows, cols);
     original.fillarray(); // Fill the original matrix
+
+    sc.close();
 
     // Create a second matrix object to store reversed elements
     MatRev reversed = new MatRev(rows, cols);
