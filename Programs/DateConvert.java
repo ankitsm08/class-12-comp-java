@@ -18,6 +18,13 @@ public class DateConvert {
     n = sc.nextInt();
     System.out.print("Enter the year: ");
     y = sc.nextInt();
+
+    int maxDays = isLeapYear(y) ? 366 : 365;
+
+    if (n < 1 || n > maxDays) {
+      System.out.println("Invalid input! Day must be in 1 - " + maxDays);
+      accept();
+    }
     sc.close();
   }
 
