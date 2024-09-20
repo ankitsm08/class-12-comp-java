@@ -13,11 +13,10 @@ public class ArraySort {
     System.out.print("ENTER THE VALUE OF N: ");
     int n = in.nextInt();
 
-    in.close();
-
     // Check if matrix size is valid
     if (m <= 2 || m >= 10 || n <= 2 || n >= 10) {
       System.out.println("MATRIX SIZE OUT OF RANGE.");
+      in.close();
       return;
     }
 
@@ -32,6 +31,8 @@ public class ArraySort {
         a[i][j] = in.nextInt();
       }
     }
+
+    in.close();
 
     // Display the original matrix
     System.out.println("ORIGINAL MATRIX");
