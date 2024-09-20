@@ -38,10 +38,10 @@ public class Array {
     Scanner in = new Scanner(System.in);
     System.out.print("ENTER VALUE OF N: ");
     int n = in.nextInt();
-    in.close();
 
     if (n <= 2 || n >= 10) {
       System.out.println("MATRIX SIZE OUT OF RANGE");
+      in.close();
       return;
     }
 
@@ -52,6 +52,8 @@ public class Array {
     for (int i = 0; i < n; i++) {
       a[i] = in.nextInt();
     }
+    
+    in.close();
 
     sortArray(a);
 
