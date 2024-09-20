@@ -5,9 +5,10 @@ import java.util.Scanner;
 public class CircularPrime {
   // Method to check if number is prime
   public static boolean isPrime(int num) {
+    if (num <= 1) return false;
     int numSqrt = (int) Math.sqrt(num);
 
-    for (int i = 1; i <= numSqrt; i++) {
+    for (int i = 2; i <= numSqrt; i++) {
       if (num % i == 0) {
         return false;
       }
