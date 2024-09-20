@@ -12,11 +12,10 @@ public class Banner {
     int n = in.nextInt();
     in.nextLine(); // Clear the buffer
 
-    in.close();
-
     // Check if the number of teams is within the valid range
     if (n <= 2 || n >= 9) {
       System.out.println("INVALID INPUT");
+      in.close();
       return;
     }
 
@@ -34,6 +33,8 @@ public class Banner {
         highLen = teams[i].length();
       }
     }
+    
+    in.close();
 
     // Print teams vertically, side by side with tab separation
     for (int i = 0; i < highLen; i++) {
