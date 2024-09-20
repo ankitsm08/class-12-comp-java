@@ -48,7 +48,6 @@ public class MatRev {
 
   // Method to display the matrix in a formatted way
   public void show() {
-    System.out.println("Matrix:");
     for (int i = 0; i < m; i++) {
       for (int j = 0; j < n; j++) {
         System.out.print(arr[i][j] + "\t");
