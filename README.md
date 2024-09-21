@@ -1,16 +1,30 @@
-# ISC 12th Class Computer Science Project
+# 🎓 Class 12 ISC Computer Science Project
 
-Java Project that had been assigned to me during my Class 12 ISC Preparation.
+Welcome to my **ISC 12th Class Computer Science Project** repository! This project was part of my Class 12 curriculum, created to fulfill the requirements for **Java programming**. The project is designed to be easily understood and includes all necessary files.
 
-It was required to be digitally made, so I created this repo with all the files.
+### ✨ Acknowledgements
+I would like to express my gratitude to:
+- **My teacher** 👨‍🏫 for the guidance.
+- **My parents** 👨‍👩‍👦 for their support.
+- **My friends** 👥 for their help throughout this awesome journey.
 
-I would like to thank my teacher, parents and friends for every help provided for the completion of this awesome project.
+---
 
-## Requirements
-### programs
-`java`
+## 📋 Project Requirements
+This project includes the following components:
 
-### doc file
-`ms word`
+- **Languages**:
+  - Java ☕
+  - Python 3.9+ 🐍 (for helper scripts only)
 
-font files: `CMU Family`, `Jetbrains Mono`, `Fira Code`
+- **Documents**:
+  - MS Word (DOCX Files) 📝
+
+- **Font Files**:
+  - `CMU Family`, `JetBrains Mono`, `Fira Code`, `Cascadia Code`
+
+---
+
+## 📜 License
+This project is licensed under the [MIT License](https://opensource.org/license/mit).
+
