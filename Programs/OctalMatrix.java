@@ -11,11 +11,11 @@ public class OctalMatrix {
     int M = sc.nextInt();
     System.out.print("Enter number of columns N: ");
     int N = sc.nextInt();
-    sc.close();
 
     // Check for valid range of M and N
     if (M <= 0 || M >= 10 || N <= 2 || N >= 6) {
       System.out.println("OUT OF RANGE");
+      sc.close();
       return;
     }
 
@@ -34,6 +34,7 @@ public class OctalMatrix {
         }
       }
     }
+    sc.close();
 
     // Display the filled matrix and compute the decimal equivalent
     System.out.println("FILLED MATRIX\tDECIMAL EQUIVALENT");
