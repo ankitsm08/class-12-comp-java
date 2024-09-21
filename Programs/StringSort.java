@@ -16,6 +16,7 @@ public class StringSort {
     Scanner sc = new Scanner(System.in);
     System.out.print("Enter a sentence: ");
     sentence = sc.nextLine();
+    sentence = sentence.substring(0, sentence.length() - 1);
     sc.close();
     words = sentence.split(" ");
   }
