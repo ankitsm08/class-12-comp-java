@@ -56,8 +56,8 @@ public class StringSort {
   }
 
   void display() {
-    System.out.println("Original Sentence: " + sentence);
-    System.out.println("Sorted Sentence (Words and Characters): " + sortedSentence);
+    System.out.println("Original Sentence:\n" + sentence);
+    System.out.println("Sorted Sentence (Words and Characters):\n" + sortedSentence);
   }
 
   public static void main(String[] args) {
