@@ -21,14 +21,14 @@ public class QuizCompetition {
 
     // Accept answers for each participant
     for (int i = 0; i < n; i++) {
-      System.out.print("Participant " + (i + 1) + ":");
+      System.out.print("Participant " + (i + 1) + ": ");
       for (int j = 0; j < 5; j++) {
         answers[i][j] = in.next().charAt(0);
       }
     }
 
     // Accept the correct answers (Answer Key)
-    System.out.print("Key:");
+    System.out.print("Key: ");
     for (int i = 0; i < 5; i++) {
       key[i] = in.next().charAt(0);
     }
@@ -39,7 +39,7 @@ public class QuizCompetition {
     int highestScore = 0;
 
     // Calculate the score for each participant
-    System.out.println("Scores:");
+    System.out.println("Scores: ");
     for (int i = 0; i < n; i++) {
       // Initialize the score for each participant
       scores[i] = 0;
@@ -57,7 +57,7 @@ public class QuizCompetition {
     }
 
     // Find and display participants with the highest score
-    System.out.println("Highest Score:");
+    System.out.println("Highest Score: ");
     for (int i = 0; i < n; i++) {
       if (scores[i] == highestScore) {
         System.out.println("Participant " + (i + 1));
