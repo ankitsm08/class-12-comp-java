@@ -20,7 +20,7 @@ This project includes the following components:
 - **Documents**:
   - MS Word (DOCX Files) 📝
 
-- **Font Files**:
+- **Font Files**: (_Provided in Repository_)
   - `CMU Family`, `JetBrains Mono`, `Fira Code`, `Cascadia Code`
 
 ---
