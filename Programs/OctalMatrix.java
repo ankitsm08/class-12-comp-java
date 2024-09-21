@@ -30,6 +30,7 @@ public class OctalMatrix {
         // Check if input is a valid octal digit (0-7)
         if (A[i][j] < 0 || A[i][j] > 7) {
           System.out.println("INVALID INPUT");
+          sc.close();      
           return;
         }
       }
