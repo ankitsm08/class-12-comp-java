@@ -16,15 +16,15 @@ public class MatRev {
 
   // Method to fill the array with user inputs
   public void fillarray() {
-    try (Scanner sc = new Scanner(System.in)) {
-      System.out.println("Enter the elements of the matrix (" + m + "x" + n + "):");
-      for (int i = 0; i < m; i++) {
-        for (int j = 0; j < n; j++) {
-          arr[i][j] = sc.nextInt();
-        }
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Enter the elements of the matrix (" + m + "x" + n + "):");
+    for (int i = 0; i < m; i++) {
+      for (int j = 0; j < n; j++) {
+        arr[i][j] = sc.nextInt();
       }
     }
   }
+  
 
   // Method to reverse a number
   public int reverse(int x) {
