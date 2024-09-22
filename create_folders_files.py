@@ -5,13 +5,13 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 # Paths to the folders
 src_dir = 'Programs'
 folders = {
-  'Algorithms': 'txt',
+  'Algorithms': 'md',
   'VDTs': 'csv',
   'Outputs': 'folder'
 }
 
 # variable to run program without making the files and folders
-dry_run = True
+dry_run = False
 
 files = os.listdir(src_dir)
 
@@ -32,7 +32,7 @@ for dest, ext in folders.items():
     if ext == 'folder':
       folder_path = os.path.join(dest, base)
       
-      if not os.path.exists(folder_path) and not dry_run:
+      if not dry_run and not os.path.exists(folder_path):
         os.makedirs(folder_path)
       
       created = f'{base}/'  # folder_name
@@ -43,14 +43,14 @@ for dest, ext in folders.items():
       new_file_path = os.path.join(dest, new_file)
       
       created = new_file
+      
+      # Create the new file (write mode to create an empty file)
+      if not dry_run and not os.path.exists(new_file_path): open(new_file_path, 'w')
     
     if i == len(files) - 1:
       print('└', end='')
     else:
       print('├', end='')
     print('────', created)
-    
-    # Create the new file (write mode to create an empty file)
-    if not dry_run: open(new_file_path, 'w')
 
 
