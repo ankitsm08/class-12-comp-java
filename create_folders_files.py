@@ -5,6 +5,7 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 # Paths to the folders
 src_dir = 'Programs'
 folders = {
+  'Questions': 'md',
   'Algorithms': 'md',
   'VDTs': 'csv',
   'Outputs': 'folder'
@@ -31,11 +32,14 @@ for dest, ext in folders.items():
     # rather than add an extension
     if ext == 'folder':
       folder_path = os.path.join(dest, base)
-      
-      if not dry_run and not os.path.exists(folder_path):
-        os.makedirs(folder_path)
-      
       created = f'{base}/'  # folder_name
+      
+      if not dry_run:
+        if not os.path.exists(folder_path):
+          os.makedirs(folder_path)
+        else:
+          created += ' (exists)'
+      
     else:
       new_file = f'{base}.{ext}'
       
@@ -45,7 +49,11 @@ for dest, ext in folders.items():
       created = new_file
       
       # Create the new file (write mode to create an empty file)
-      if not dry_run and not os.path.exists(new_file_path): open(new_file_path, 'w')
+      if not dry_run:
+        if not os.path.exists(new_file_path):
+          open(new_file_path, 'w')
+        else:
+          created += ' (exists)'
     
     if i == len(files) - 1:
       print('└', end='')
