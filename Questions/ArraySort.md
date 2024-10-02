@@ -1,3 +1,5 @@
+# Question:
+
 Write a program to declare a matrix `a[][]` of order (m × n) where 'm' is the number of rows and 'n' is the number of columns such that the values of both 'm' and 'n' must be greater than 2 and less than 10. Allow the user to input integers into this matrix.
 
 ## Perform the following tasks on the matrix:
@@ -48,7 +50,6 @@ ENTER ELEMENTS OF MATRIX:
 | 7   | 36  | 12  |
 | 9   | 13  | 6   |
 
-
 **OUTPUT:**  
 ORIGINAL MATRIX:  
 | 22  | 5   | 19  |
@@ -62,7 +63,6 @@ MATRIX AFTER SORTING ROWS:
 | --- | --- | --- |
 | 7   | 12  | 36  |
 | 6   | 9   | 13  |
-
 
 ### Example 3
 

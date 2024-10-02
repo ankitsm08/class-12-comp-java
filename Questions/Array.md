@@ -1,9 +1,10 @@
+# Question:
+
 Write a program to declare a single-dimensional array `a[]` and a square matrix `b[][]` of size `N`, where `N > 2` and `N < 10`. Allow the user to input positive integers into the single-dimensional array.
 
 ## Perform the following tasks on the matrix:
 
 1. Sort the elements of the single-dimensional array in ascending order using any standard sorting technique and display the sorted elements.
-
 
 2. Fill the square matrix `b[][]` in the following format:
   
@@ -20,7 +21,6 @@ Write a program to declare a single-dimensional array `a[]` and a square matrix 
 3. Display the filled matrix in the above format.
 
 ## Test your program for the following data and some random data:
-
 
 ### Example 1:
 

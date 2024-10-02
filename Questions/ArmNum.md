@@ -1,9 +1,12 @@
+# Question:
+
 Design a class **ArmNum** to check if a given number is an Armstrong number or not.  
 [ A number is said to be Armstrong if the sum of its digits raised to the power of the length of the number is equal to the number ]  
 
 ## Example:
-- 371 = 3³ + 7³ + 1³
-- 1634 = 1⁴ + 6⁴ + 3⁴ + 4⁴  
+
+- $371 = 3^3 + 7^3 + 1^3$
+- $1634 = 1^4 + 6^4 + 3^4 + 4^4$
 
 Thus, 371 and 1634 are examples of Armstrong numbers.
 

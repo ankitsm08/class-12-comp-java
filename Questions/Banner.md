@@ -1,10 +1,11 @@
+# Question:
+
 The names of the teams participating in a competition should be displayed on a banner vertically, to accommodate as many teams as possible in a single banner. Design a program to accept the names of N teams, where 2 < N < 9 and display them in vertical order, side by side with a hori ontal tab (i.e. eight spaces).
 
 ## Test your program for the following data and some random data:
 
-
-
 ### Example 1
+
 **INPUT:**  
 N = 3  
 Team 1: Emus  
@@ -23,12 +24,8 @@ Team 3: Coyote
 |     | l   |     |
 |     | s   |     |
 
-
-
-
-
-
 ### Example 2
+
 **INPUT:**  
 N = 4  
 Team 1: Royal  
@@ -46,8 +43,8 @@ Team 4: Kings
 |     |     | s   |     |
 |     |     | e   |     |
 
-
 ### Example 3
+
 **INPUT:**  
 N = 10
 

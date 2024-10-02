@@ -1,6 +1,9 @@
+# Question:
+
 A class **Adder** has been defined to add any two accepted times. The time is entered in the 24-hour format (HH) as a string and then converted to an integer array representing hours and minutes. Additionally, the class checks if the total hours exceed 24 hours after addition, in which case it resets the hours to fit within the 24-hour format.
 
 ## Example:
+
 - **Time A** - "06:35" (6 hours 35 minutes)
 - **Time B** - "19:50" (19 hours 50 minutes)
 - **Their sum** is - "02:25" (since 26 hours 25 minutes wraps around to 24-hour format)
