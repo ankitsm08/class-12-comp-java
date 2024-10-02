@@ -16,8 +16,8 @@ Thus, 371 and 1634 are examples of Armstrong numbers.
 **ArmNum**
 
 ### Data members/instance variables:
-- `n` : to store the number
-- `l` : to store the length of the number
+- `n` : To store the number
+- `l` : To store the length of the number
 
 ### Methods/Member functions:
 
