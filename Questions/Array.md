@@ -24,48 +24,35 @@ Write a program to declare a single-dimensional array `a[]` and a square matrix 
 
 ### Example 1:
 
-**INPUT:**
-
-N = 3
-
+**INPUT:**  
+N = 3  
 ENTER ELEMENTS OF SINGLE DIMENSIONAL ARRAY: 3 1 7
 
-**OUTPUT:**
-
-SORTED ARRAY: 1 3 7
-
-FILLED MATRIX:
-
+**OUTPUT:**  
+SORTED ARRAY: 1 3 7  
+FILLED MATRIX:  
 | 1   | 3   | 7   |
 | --- | --- | --- |
 | 1   | 3   | 1   |
 | 1   | 1   | 3   |
 
-
 ### Example 2
 
-**INPUT:**
-
+**INPUT:**  
 N = 13
 
-**OUTPUT:**
-
+**OUTPUT:**  
 MATRIX SIZE OUT OF RANGE
 
 ### Example 3
 
-**INPUT:**
-
-N = 5
-
+**INPUT:**  
+N = 5  
 ENTER ELEMENTS OF SINGLE DIMENSIONAL ARRAY: 10 2 5 23 6
 
-**OUTPUT:**
-
-SORTED ARRAY: 2 5 6 10 23
-
-FILLED MATRIX:
-
+**OUTPUT:**  
+SORTED ARRAY: 2 5 6 10 23  
+FILLED MATRIX:  
 | 2   | 5   | 6   | 10  | 23  |
 | --- | --- | --- | --- | --- |
 | 2   | 5   | 6   | 10  | 2   |
