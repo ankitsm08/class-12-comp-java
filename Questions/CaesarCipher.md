@@ -1,8 +1,8 @@
 # Question:
 
-Caesar Cipher is an encryption technique which is implemented as ROT13 ('rotate by 13 places'). It is a simple letter substitution cipher that replaces a letter with the letter 13 places after it in the alphabets, with the other characters remaining unchanged.
+Caesar Cipher is an encryption technique which is implemented as "ROT13" ( rotate by 13 places ). It is a simple letter substitution cipher that replaces a letter with the letter 13 places after it in the alphabets, with the other characters remaining unchanged.
 
-Write a program to accept a plain text of length L, where L must be greater than 3 and less than 100.
+Write a program to accept a plain text of length `L`, where $3 < L < 100$.
   
 Encrypt the text if valid as per the Caesar Cipher.
 

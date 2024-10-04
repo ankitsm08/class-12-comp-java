@@ -1,6 +1,6 @@
 # Question:
 
-Write a program to declare a single-dimensional array `a[]` and a square matrix `b[][]` of size `N`, where `N > 2` and `N < 10`. Allow the user to input positive integers into the single-dimensional array.
+Write a program to declare a single-dimensional array `a[]` and a square matrix `b[][]` of size `N`, where $N > 2$ and $N < 10$. Allow the user to input positive integers into the single-dimensional array.
 
 ## Perform the following tasks on the matrix:
 

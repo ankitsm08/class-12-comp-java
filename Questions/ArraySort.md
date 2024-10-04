@@ -1,6 +1,6 @@
 # Question:
 
-Write a program to declare a matrix `a[][]` of order (m × n) where 'm' is the number of rows and 'n' is the number of columns such that the values of both 'm' and 'n' must be greater than 2 and less than 10. Allow the user to input integers into this matrix.
+Write a program to declare a matrix `a[][]` of order (m × n) where 'm' is the number of rows and 'n' is the number of columns such that $(2 < m, n < 10)$. Allow the user to input integers into this matrix.
 
 ## Perform the following tasks on the matrix:
 
