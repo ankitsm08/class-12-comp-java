@@ -14,11 +14,15 @@ A class **Adder** has been defined to add any two accepted times. The time is en
 **Adder**
 
 ### Data members (instance variables):
+
 - `a[]`: An integer array of size 2 to hold the hours and minutes.
 
 ### Member functions/methods:
 
 - **Adder()** : Constructor to assign 0 to the array elements.
+
 - **void readtime(String input)** : Takes a time input in the format "HH" as a string, splits it, and stores hours and minutes in the array.
+
 - **void addtime(Adder X, Adder Y)** : Adds the time of the two parameterized objects X and Y, storing the result in the current calling object. If the sum of hours exceeds 24, it wraps around the 24-hour format.
+
 - **void disptime()** : Displays the array elements with an appropriate message (hours = and minutes =).

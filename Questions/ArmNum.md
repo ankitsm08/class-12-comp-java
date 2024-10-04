@@ -16,11 +16,14 @@ Thus, 371 and 1634 are examples of Armstrong numbers.
 **ArmNum**
 
 ### Data members/instance variables:
+
 - `n` : To store the number
 - `l` : To store the length of the number
 
 ### Methods/Member functions:
 
 - **ArmNum(int nn)** : Parameterized constructor to initialize the data member `n = nn`.
+
 - **int sum_pow(int i)** : Returns the sum of each digit raised to the power of the length of the number using recursive technique.
+
 - **void isArmstrong()** : Checks whether the given number is an Armstrong number by invoking the function `sum_pow()` and displays the result with an appropriate message.
