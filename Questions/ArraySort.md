@@ -4,9 +4,9 @@ Write a program to declare a matrix `a[][]` of order (m × n) where 'm' is the n
 
 ## Perform the following tasks on the matrix:
 
-1.	Display the original matrix.
-2.	Sort each row of the matrix in ascending order using any standard sorting technique.
-3.	Display the changed matrix after sorting each row.
+1. Display the original matrix.
+2. Sort each row of the matrix in ascending order using any standard sorting technique.
+3. Display the changed matrix after sorting each row.
 
 ## Test your program for the following data and some random data:
  

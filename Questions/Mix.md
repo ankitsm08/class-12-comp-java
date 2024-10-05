@@ -15,8 +15,8 @@ If the First word is “JUMP” and the second word is “STROLL”, then the re
 
 ### Data member/instance variable:
 
-- `wrd` :	To store a word
-- `len` :	To store the length of the word
+- `wrd` : To store a word
+- `len` : To store the length of the word
 
 ### Member functions/methods:
 

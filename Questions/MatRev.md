@@ -23,9 +23,9 @@ Design a class MatRev to reverse each element of a matrix.
 
 ### Data members/instance variables:
 
-- `arr[][]`	:	To store integer elements
-- `m` :	To store the number of rows
-- `n` :	To store the number of columns
+- `arr[][]` : To store integer elements
+- `m` : To store the number of rows
+- `n` : To store the number of columns
 
 ### Member functions/methods:
 
