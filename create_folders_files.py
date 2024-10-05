@@ -7,7 +7,7 @@ src_dir = 'Programs'
 folders = {
   'Questions': 'md',
   'Algorithms': 'md',
-  'VDTs': 'csv',
+  'VDTs': 'md',
   'Outputs': 'folder'
 }
 
