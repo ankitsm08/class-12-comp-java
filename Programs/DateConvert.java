@@ -52,15 +52,13 @@ public class DateConvert {
 
     // Determine the month and date
     int remainingDays = n;
-    for (int i = 0; i < 12; i++) {
-      if (remainingDays <= daysInMonths[i]) {
-        m = i + 1; // Month number
-        d = remainingDays; // Day of the month
-        break;
-      } else {
-        remainingDays -= daysInMonths[i];
-      }
+    // m = 0 -> starting with January
+    while (n > daysInMonths[m]) {
+      remainingDays -= daysInMonths[m];
+      m++;
     }
+    // Remaining days is the day of the month
+    d = remainingDays;
   }
 
   // Method to display the date in month name format
