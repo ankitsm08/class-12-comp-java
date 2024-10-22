@@ -19,12 +19,21 @@ public class DateConvert {
     System.out.print("Enter the year: ");
     y = sc.nextInt();
 
-    int maxDays = isLeapYear(y) ? 366 : 365;
-
-    if (n < 1 || n > maxDays) {
-      System.out.println("Invalid input! Day must be in 1 - " + maxDays);
-      accept();
+    // If n is positive, we move forward through the years
+    if (n > 0) {
+      while (n > (isLeapYear(y) ? 366 : 365)) {
+        n -= isLeapYear(y) ? 366 : 365;
+        y++; // Move to the next year
+      }
+    } 
+    // If n is negative, we move backwards through the years
+    else if (n < 0) {
+      while (n < 1) {
+        n += isLeapYear(y) ? 366 : 365;
+        y--; // Move to the previous year
+      }
     }
+
     sc.close();
   }
 
