@@ -36,11 +36,10 @@ public class DateConvert {
   // Method to convert day number to month and date
   void day_to_date() {
     // Days in months for non-leap years and leap years
-    int[] daysInMonthsNonLeap = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
-    int[] daysInMonthsLeap = { 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
-
-    boolean leap = isLeapYear(y);
-    int[] daysInMonths = leap ? daysInMonthsLeap : daysInMonthsNonLeap;
+    int[] daysInMonths = { 31, 28, 31, 30, 31, 30,
+                           31, 31, 30, 31, 30, 31 };
+    // Update February days if leap year
+    daysInMonths[1] += isLeapYear(y) ? 1 : 0;
 
     // Determine the month and date
     int remainingDays = n;
